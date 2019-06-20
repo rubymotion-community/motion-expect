@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class RaiseError
     def initialize(error_class = Exception, message = "")
       @error_class = error_class.is_a?(Class) ? error_class : Exception

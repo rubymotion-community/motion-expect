@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class BeNil
     def matches?(value)
       value == nil

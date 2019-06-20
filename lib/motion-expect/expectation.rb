@@ -1,4 +1,4 @@
-module BaconExpect
+module MotionExpect
   class Expectation
     module BaconContext
       def expect(subject = nil, &block)

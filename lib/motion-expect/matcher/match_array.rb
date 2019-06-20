@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class MatchArray
     def initialize(expected_array)
       @expected_array = expected_array

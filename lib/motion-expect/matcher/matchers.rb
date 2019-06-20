@@ -1,4 +1,4 @@
-module BaconExpect
+module MotionExpect
   module Matcher
     module BaconContext
       def be_nil

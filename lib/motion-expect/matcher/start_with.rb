@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class StartWith
     def initialize(start_string)
       @start_string = start_string

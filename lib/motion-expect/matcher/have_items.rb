@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class HaveItems
     def initialize(number_of_items)
       @number_of_items = number_of_items

@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class EndWith
     def initialize(end_string)
       @end_string = end_string

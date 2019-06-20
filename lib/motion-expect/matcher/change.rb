@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class Change
     def initialize(change_block)
       @change_block = change_block
