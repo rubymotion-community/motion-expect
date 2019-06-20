@@ -1,4 +1,4 @@
-module BaconExpect
+module MotionExpect
   class FailMessageRenderer
     def self.expectation(negated)
       "#{negated ? " not" : ""} expected"
@@ -49,7 +49,7 @@ module BaconExpect
     def self.message_for_be_eq(negated, subject, value)
       "#{subject.inspect}#{expectation(negated)} to be == to #{value.inspect}"
     end
-    
+
     def self.message_for_have_generic(negated, subject, method_name, values)
       message = "#{subject.inspect} #has_#{method_name}?"
       message += "(#{values.map(&:inspect).join(', ')})" unless values.empty?

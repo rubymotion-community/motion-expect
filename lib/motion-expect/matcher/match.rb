@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class Match < SingleMethod
     def initialize(value)
       super(:match, value)

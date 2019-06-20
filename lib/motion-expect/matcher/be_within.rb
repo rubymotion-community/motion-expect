@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class BeWithin
     def initialize(range)
       @range = range

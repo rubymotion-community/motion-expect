@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "bacon-expect"
-  spec.version       = "1.0.3"
-  spec.authors       = ["Ignacio Piantanida"]
-  spec.email         = ["ijpiantanida@gmail.com"]
+  spec.name          = "motion-expect"
+  spec.version       = "2.0.0"
+  spec.authors       = ["Ignacio Piantanida", "Lori Olson"]
+  spec.email         = ["lori@wndx.com"]
   spec.description   = "RSpec's expect syntax in MacBacon"
   spec.summary       = "Bring RSpec 3.0 expect syntax to MacBacon"
-  spec.homepage      = "https://github.com/ijpiantanida/bacon-expect"
+  spec.homepage      = "https://github.com/rubymotion-community/motion-expect"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

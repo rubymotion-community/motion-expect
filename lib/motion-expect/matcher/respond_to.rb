@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class RespondTo
     def initialize(method_name)
       @method_name = method_name

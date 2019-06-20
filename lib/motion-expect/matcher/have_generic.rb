@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class HaveGeneric
     def initialize(method_name, *args)
       @method_name = method_name

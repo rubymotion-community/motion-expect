@@ -16,6 +16,6 @@ describe "Matcher::BeWithin" do
   end
 
   it "raises an exception when the matcher is not complete" do
-    expect{ expect(1).to be_within(10) }.to raise_error(BaconExpect::InvalidMatcher)
+    expect{ expect(1).to be_within(10) }.to raise_error(MotionExpect::InvalidMatcher)
   end
 end

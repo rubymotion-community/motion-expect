@@ -1,4 +1,4 @@
-module BaconExpect; module Matcher
+module MotionExpect; module Matcher
   class Satisfy
     def initialize(&condition_block)
       @condition_block = condition_block
