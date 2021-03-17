@@ -1,4 +1,4 @@
-# MotionExpect [![Build Status](https://travis-ci.org/rubymotion-community/motion-expect.svg?branch=master)](https://travis-ci.org/rubymotion-community/motion-expect) [![Code Climate](https://codeclimate.com/github/rubymotion-community/motion-expect.png)](https://codeclimate.com/github/rubymotion-community/motion-expect)
+# MotionExpect [![Build Status](https://travis-ci.com/rubymotion-community/motion-expect.svg?branch=master)](https://travis-ci.com/rubymotion-community/motion-expect) [![Code Climate](https://codeclimate.com/github/rubymotion-community/motion-expect.png)](https://codeclimate.com/github/rubymotion-community/motion-expect)
 
 Bring [RSpec 3.0 expect syntax](https://www.relishapp.com/rspec/rspec-expectations/v/3-0/docs/built-in-matchers) to RubyMotion's MacBacon.
 ```ruby
@@ -18,7 +18,7 @@ gem 'motion-expect'
 # Usage
 This gem ports most of the built-in matchers found in [RSpec 3.0](https://www.relishapp.com/rspec/rspec-expectations/v/3-0/docs/built-in-matchers)
 
-**A full list of matchers examples can be found in the [sample app specs.](spec_app/spec/matchers)**
+**A full list of matchers examples can be found in the [sample app specs.](spec/matchers)**
 
 Examples:
 ```ruby
